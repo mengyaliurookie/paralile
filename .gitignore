@@ -1,0 +1,69 @@
+# -------------------------- PyCharm 相关文件 --------------------------
+# PyCharm 项目配置目录（包含项目结构、运行配置等）
+.idea/
+# PyCharm 单独文件格式的项目配置（旧版或单文件项目）
+*.ipr
+*.iws
+*.iml
+# PyCharm 终端日志
+.idea/terminal/
+# PyCharm 代码风格配置备份
+.idea/codeStyles/backup/
+
+# -------------------------- Python 编译/缓存文件 --------------------------
+# Python 字节码文件（编译产物）
+__pycache__/
+*.py[cod]
+*$py.class
+# Python 优化编译产物
+*.pyo
+*.pyd
+# Python 动态加载模块缓存
+*.so
+# 分布式版本控制的本地状态文件
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -------------------------- 虚拟环境 --------------------------
+# 常见虚拟环境目录（根据你的实际虚拟环境名调整，这里包含主流命名）
+venv/
+env/
+ENV/
+.venv/
+env.local/
+env.development/
+env.production/
+
+# -------------------------- 日志/缓存/临时文件 --------------------------
+# 日志文件
+logs/
+*.log
+# 缓存目录
+cache/
+.pytest_cache/
+# 临时文件目录
+tmp/
+temp/
+# 操作系统临时文件
+.DS_Store  # Mac 系统
+Thumbs.db  # Windows 系统
+# 编辑器临时文件
+*.swp  # Vim 临时文件
+*.swo  # Vim 临时文件
+
+# -------------------------- 项目特定文件（按需调整） --------------------------
+# 数据文件（如果不需要提交原始数据）
+data/
+# 配置文件（包含敏感信息，如密钥、数据库密码等）
+config.ini
+config.json
+.env
+.env.local
+# 输出文件（如打包产物、报表等）
+dist/
+build/
+dist-packages/
+site-packages/
+# Jupyter Notebook 检查点文件（避免提交临时检查点）
+.ipynb_checkpoints/
